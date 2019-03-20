@@ -42,8 +42,8 @@ You should attempt to complete this challenge without looking at any other resou
 ## Exercise
 
 - Todo Router
-  - Create a new file name todo-router.js
-  - Move all the endpoints from app.js to todo-router.js
+  - Create a new file name `todo-router.js` in the *todo* directory
+  - Move all the endpoints from `app.js` to `todo-router.js`
   - Require the proper modules into todo-router.js and export the router
   - In app.js, mount the router on /v1/todos/ path (aka mount point)
   - Remember to update the paths on the router files.
