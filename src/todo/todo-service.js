@@ -29,7 +29,6 @@ const TodoService = {
       })
   },
   deleteTodo(db, todo_id) {
-    console.log('In the service: ', todo_id)
     return db('todo')
       .where({'id': todo_id})
       .delete()
